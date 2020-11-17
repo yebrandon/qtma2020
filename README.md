@@ -6,8 +6,7 @@
 
 ## About
 
-Voluntera is a marketplace for volunteering opportunities. People looking for ways to make an impact on their community can connect with organizations and businesses that need their help, and have their 
-hours, contributions, and opporutnities all consolidated into a single web app.
+Voluntera is a marketplace for volunteering opportunities. People looking for ways to make an impact on their community can connect with organizations and businesses that need their help, and have their hours, contributions, and opportunities all consolidated into a single web app.
 
 This project is currently being developed by Lexi Iocca, Victor Uemura, and Brandon Ye as a part of QTMA, Queen's Tech and Media Association.
 
@@ -17,10 +16,12 @@ This project is currently being developed by Lexi Iocca, Victor Uemura, and Bran
 
 ## Tech Stack
 
-- React
-- Node.js
-- Firebase
+-   React
+-   Node.js
+-   Firebase
 
 ## Learn More
+
+https://voluntera.ca - currently under development!
 
 https://qtma.ca/
