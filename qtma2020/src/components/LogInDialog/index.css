@@ -78,10 +78,6 @@ p.MuiDialogContentText-root {
 	text-transform: none;
 }
 
-.MuiButton-contained.Mui-disabled {
-	opacity: 0.5;
-}
-
 .dialogImg {
 	height: 500px;
 	width: 100%;
@@ -96,4 +92,14 @@ p.MuiDialogContentText-root {
 
 a {
 	color: #437f55;
+}
+
+.button-label {
+	font-family: Circular Std;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	background: #fff;
+	border: none;
+	padding-right: 15%;
 }
