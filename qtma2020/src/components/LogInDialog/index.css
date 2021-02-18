@@ -32,7 +32,7 @@ html {
 	margin-left: 0.25em;
 }
 
-.row {
+.dialogRow {
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -96,10 +96,8 @@ a {
 
 .button-label {
 	font-family: Circular Std;
-	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
-	background: #fff;
+	background: none;
 	border: none;
-	padding-right: 15%;
 }

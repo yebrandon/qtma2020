@@ -111,29 +111,11 @@ a.signout-button:hover {
   padding: 20px;
 }
 
-.donate-button {
-  width: 182px;
-  height: 182px;
-  font-family: Recoleta Alt;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 18px;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  vertical-align: middle;
-
-  background: #7eb9b2;
-  border-radius: 50px;
-  border: none;
-  margin-top: 24;
-}
-
 .landing-body {
   display: flex;
   justify-content: flex-start;
-  height: 3800px;
+  height: 3000px;
+  padding-bottom: 100px;
 }
 
 .landing-top {
@@ -143,7 +125,7 @@ a.signout-button:hover {
   flex-wrap: wrap;
   align-content: center;
   justify-content: flex-start;
-  padding-top: 220px;
+  padding-top: 0px;
   height: 100%;
   width: 100%;
 }
@@ -152,8 +134,8 @@ a.signout-button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 3.74%;
-  margin-top: 166px;
+  height: 10%;
+  margin-top: 130px;
 }
 
 .h-middle-box2 {
@@ -161,7 +143,7 @@ a.signout-button:hover {
   align-items: center;
   justify-content: center;
   height: 3.74%;
-  margin-top: 211px;
+  margin-top: 0px;
 }
 
 .h-middle-box3 {
@@ -174,13 +156,14 @@ a.signout-button:hover {
 }
 
 .v-middle-box {
-  align-items: center; /* NEW */
+  align-items: center; /*New*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-end;
   justify-content: right;
-  width: 45%;
+
+  width: 80%;
 }
 
 .v-middle-box2 {
@@ -195,10 +178,21 @@ a.signout-button:hover {
 }
 
 .image-3 {
-  height: 2.05%;
+  height: 7%;
+  display: flex;
+  width: 85%;
+  padding-top: 100px;
+  margin-left: 8%;
+  margin-right: 10%;
+}
+
+.image-4 {
+  height: 2.6%;
   display: flex;
   width: 100%;
-  padding-top: 122px;
+  padding-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .image-6 {
@@ -207,6 +201,12 @@ a.signout-button:hover {
   width: 100%;
   padding-top: 122px;
   align-items: center;
+}
+
+.image-7 {
+  height: 2.05%;
+  display: flex;
+  width: 100%;
 }
 
 .left-title {
@@ -223,7 +223,7 @@ a.signout-button:hover {
   line-height: 65px;
   text-align: center;
 
-  color: #323232;
+  color: #ffffff;
 }
 
 .landing-title2 {
@@ -269,14 +269,13 @@ a.signout-button:hover {
 }
 
 .landing-subtitle {
-  width: 85%;
-
+  width: 100%;
+  text-align: center;
   font-family: Recoleta Alt;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  text-align: left;
   margin-top: 0px;
   margin-bottom: 0px;
 
@@ -317,21 +316,20 @@ a.signout-button:hover {
   margin-top: 12px;
   margin-bottom: 22px;
 
-  color: #777777;
+  color: #ffffff;
   transform: scale(1);
 }
 
 .landing-p2 {
-  width: 80%;
-
+  width: 66%;
   font-family: Circular Std;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
-  text-align: left;
-  margin-top: 15px;
-
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
   color: #777777;
 }
 
@@ -404,6 +402,17 @@ a.signout-button:hover {
   margin-top: 24;
 }
 
+.landingFindOrg {
+  font-family: Recoleta Alt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 49px;
+  width: 75%;
+  text-align: left;
+  padding-top: 3em;
+}
+
 .landing-button2 {
   width: 9.38%;
   height: 38px;
@@ -420,15 +429,15 @@ a.signout-button:hover {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #f46c35;
+  color: #7eb9b2;
   border: none;
   vertical-align: middle;
   display: table-cell;
 }
 
 .landing-rectangle-1 {
-  width: 68%;
-  height: 12.6%;
+  width: 85%;
+  height: 9%;
   margin-top: 77px;
   border-radius: 20px;
   border: none;
@@ -448,6 +457,7 @@ a.signout-button:hover {
   height: 791%;
   padding: 0;
   border: none;
+  border-radius: 30px;
 }
 
 .landing-rectangle-4 {
@@ -474,4 +484,70 @@ a.signout-button:hover {
   border-radius: 30px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.landing-rectangle-7 {
+  width: 100%;
+  height: 880%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-row {
+  margin-top: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  margin-bottom: 8em;
+}
+
+.cards-row2 {
+  margin-top: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.grid {
+  display: grid;
+  margin: auto;
+  grid-template-columns: 19% 20% 22% 20% 19%;
+  grid-template-rows: 50% 50%;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+.flex-row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 200px;
+}
+
+.flex-col {
+  flex-basis: 100%;
+  margin-left: 12px;
+  margin-right: 12px;
+  align-items: baseline;
+}
+
+@media screen and (min-width: 800px) {
+  .flex-col {
+    flex: 1;
+  }
 }

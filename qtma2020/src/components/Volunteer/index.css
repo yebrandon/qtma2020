@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Recoleta Alt";
+  src: local("Recoleta Alt"), url("../../assets/fonts/RecoletaAlt-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: local("Circular Std"), url("../../assets/fonts/Circular-Std-Book.ttf");
+}
+
+.faq-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* NEW */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  padding-top: 220px;
+  padding-bottom: 150px;
+  height: 100%;
+  width: 100%;
+  background: #f9f9f9;
+}
+
+.volunteer-body {
+  background: #f9f9f9;
+  padding-bottom: 120px;
+}
+
+.faq-title1 {
+  font-family: Recoleta Alt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+
+  color: #323232;
+}
+
+.faq-question {
+  font-family: Recoleta Alt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: left;
+  padding-top: 50px;
+
+  color: #000000;
+}
+
+.faq-answer {
+  width: 55%;
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 22px;
+
+  color: #777777;
+  transform: scale(1);
+}
+
+.please-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* NEW */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  font-family: Recoleta Alt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: left;
+  padding-top: 50px;
+
+  color: #000000;
+}
+
+.volunteer-text {
+  width: 100%;
+  margin-left: 0%;
+  text-align: center;
+  font-family: Recoleta Alt;
+  font-size: 32px;
+  color: #202020;
+  margin-bottom: 4%;
+  padding-top: 100px;
+}
+
+.match-hours {
+  font-weight: 400;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #437f55;
+  border-radius: 50px;
+  margin-top: 40px;
+  width: 15%;
+  height: auto;
+  padding: 20px 30px 20px 30px;
+}
+
+a {
+  color: #fffff3;
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ffffff;
+}
