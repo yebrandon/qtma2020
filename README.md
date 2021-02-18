@@ -7,13 +7,9 @@
 
 ## About
 
-Voluntera is a marketplace for volunteering opportunities. People looking for ways to make an impact on their community can connect with organizations and businesses that need their help, and have their hours, contributions, and opportunities all consolidated into a single web app.
+Voluntera is the one-stop shop for social impact. People looking for ways to make an impact on their community can connect with organizations and businesses that need their help and contribute by volunteering or making donations, with our platform matching donations made with volunteer hours to amplify social impact.
 
 This project is currently being developed by the Voluntera team at QTMA, Queen's Tech and Media Association.
-
-<details>
-  <summary>Screenshots - Coming Soon!</summary>
-</details>
 
 ## Tech Stack
 
@@ -23,6 +19,6 @@ This project is currently being developed by the Voluntera team at QTMA, Queen's
 
 ## Learn More
 
-https://voluntera.ca - currently under development!
+https://voluntera.ca
 
 https://qtma.ca/
